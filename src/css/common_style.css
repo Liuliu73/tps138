@@ -1,0 +1,63 @@
+.header-bar { height: 36px; background: #f1f1f1; border-bottom: solid 1px #ddd; }
+
+.header-bar .container { width: 1200px; margin: 0 auto; }
+
+.header-bar .container .nav-top-l li { position: relative; line-height: 36px; z-index: 10; margin: 0 5px; }
+
+.header-bar .container .nav-top-l li a { position: relative; display: inline-block; z-index: 4; padding: 0 15px; }
+
+.header-bar .container .nav-top-l li a s { margin-right: 6px; }
+
+.header-bar .container .nav-top-l li ul { display: none; background: #fff; position: absolute; top: 35px; left: -1px; width: 96px; border: solid 1px #dfdfdf; z-index: 3; }
+
+.header-bar .container .nav-top-l li ul li { line-height: 28px; padding: 0 12px; }
+
+.header-bar .container .nav-top-l li ul li a { padding: 0; }
+
+.header-bar .container .nav-top-l li ul li a s { margin: 0 4px -1px -6px; }
+
+.header-bar .container .nav-top-r li { position: relative; line-height: 36px; z-index: 10; margin: 0 5px; }
+
+.header-bar .container .nav-top-r li a { position: relative; display: inline-block; z-index: 4; padding: 0 5px; }
+
+.header-bar .container .nav-top-r li a s { margin-right: 6px; }
+
+.site-header { min-width: 1200px; height: 76px; margin: 35px 0 30px 0; }
+
+.site-header .container { width: 1200px; margin: 0 auto; height: 80px; }
+
+.site-header .container .car a { display: block; color: #666; background: #ececec; font-size: 16px; height: 40px; padding: 2px; width: 120px; position: relative; margin-top: 15px; }
+
+.site-header .container .car a i { display: inline-block; width: 42px; height: 32px; margin-top: 6px; background: url("../img/shopcar.png"); }
+
+.site-header .container .car a span { margin-left: 16px; float: left; margin-top: 9px; }
+
+.site-header .container .car a .car-count { position: absolute; top: -10px; left: 15px; display: block; padding: 4px; border-radius: 10px; line-height: 8px; color: #fff; background-color: #ee4242; font-size: 12px; font-weight: normal; }
+
+.site-header .container .search { margin-top: 15px; height: 40px; border: solid 2px #333157; border-radius: 2px; margin-left: 174px; }
+
+.site-header .container .search input { width: 438px; font-size: 14px; margin: 10px; border: none; float: left; outline: none; }
+
+.site-header .container .search button { height: 40px; width: 48px; border: 0; cursor: pointer; overflow: hidden; background-color: #333157; }
+
+.site-header .container .search .search-nav { margin-top: 4px; }
+
+.site-header .container .search .search-nav a, .site-header .container .search .search-nav span { margin-right: 2px; }
+
+.main-nav { height: 45px; min-width: 1200px; line-height: 45px; border-bottom: 2px solid #333; }
+
+.main-nav .container { width: 1200px; margin: 0 auto; }
+
+.main-nav .container .catalog { width: 160px; position: relative; z-index: 10; }
+
+.main-nav .container .catalog h3 { font-size: 14px; line-height: 45px; padding-left: 26px; color: #fff; background: #333157; font-weight: 500; }
+
+.main-nav .container .menu-normal { height: 45px; }
+
+.main-nav .container .menu-normal li { display: inline-block; position: relative; text-align: center; }
+
+.main-nav .container .menu-normal li a { font-size: 14px; padding: 0 25px; }
+
+.main-nav .container .menu-normal li a em.hot { background: url(../img/hot.gif) no-repeat center; }
+
+.main-nav .container .menu-normal li a em.new { background: url(../img/new.gif) no-repeat center; }

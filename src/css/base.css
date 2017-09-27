@@ -1,0 +1,38 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin: 0; padding: 0; }
+
+body, button, input, select, textarea { font: 12px/1.5 Tahoma, Arial, Helvetica, 'Microsoft YaHei', sans-serif; color: #333;}
+
+ul, li { list-style: none; }
+em{font-style: normal;}
+.fl { float: left !important; _display: inline; }
+.fr { float: right !important; _display: inline; }
+
+.clfix::after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+    zoom: 1; 
+}
+
+a:link, a:visited { text-decoration: none; vertical-align: baseline; color: #333;}
+
+
+
+.flag-USD { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 0; }
+.flag-CNY { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -12px; }
+.flag-HKD { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -24px; }
+.flag-KRW { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -36px; }
+.flag-FR { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -48px; }
+.flag-AUS { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -60px; }
+.flag-CHILE { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -72px; }
+.flag-ARG { display: inline-block; width: 16px; height: 11px; background: url(../img/ico-index-flag.png) no-repeat 0 -84px; }
+
+s.arrow { position: relative; left: 4px; top: 10px; height: 0; border-width: 4px; border-color: #888 transparent transparent; border-style: solid dashed dashed; }
+
+a.active{color: #ee4242;}
+
+em.hot,em.new{position: absolute;top: -5px;right:50px;width: 9px;height: 14px;}
+
