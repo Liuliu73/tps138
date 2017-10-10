@@ -3,7 +3,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fo
 body, button, input, select, textarea { font: 12px/1.5 Tahoma, Arial, Helvetica, 'Microsoft YaHei', sans-serif; color: #333;}
 
 ul, li { list-style: none; }
-em{font-style: normal;}
+b,em{font-style: normal;}
 .fl { float: left !important; _display: inline; }
 .fr { float: right !important; _display: inline; }
 
@@ -36,3 +36,4 @@ a.active{color: #ee4242;}
 
 em.hot,em.new{position: absolute;top: -5px;right:50px;width: 9px;height: 14px;}
 
+ul.w120{width: 120px;}

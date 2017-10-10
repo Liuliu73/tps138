@@ -7,6 +7,6 @@
 /* header-bar nav-top-l 下拉菜单 */
 .header-bar .nav-top-l li:hover a.down { border-right: solid 1px #dfdfdf; border-left: solid 1px #dfdfdf; background: #fff; margin: 0 -1px; }
 
-.header-bar .nav-top-l li:hover ul { display: block; width: 90px; }
+.header-bar .nav-top-l li:hover ul, .main-nav .menu-normal li:hover ul { display: block; }
 
 .header-bar .nav-top-l li .ne li:hover > a { color: #ee4242; }
